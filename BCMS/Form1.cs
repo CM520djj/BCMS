@@ -22,7 +22,7 @@ namespace BCMS
         {
             InitializeComponent();
         }
-        private string connString = "server=192.168.9.241;database=myhis;user=his;pwd=yfyy999;";
+        private string connString = "server=.;database=yourdatabase;user=username;pwd=password;";
         HashSet<string> printNumbers = new HashSet<string>();
         private void SearchData ()
         {
